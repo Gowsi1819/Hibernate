@@ -1,2 +1,2 @@
-Employee ---- Crude Operation in hibernate
-HibernateMapping-----OneToOne Mapping
+Hibernate/Employee ---- Crude Operation in hibernate   .    
+HibernateMapping/Customer-----OneToOne Mapping
