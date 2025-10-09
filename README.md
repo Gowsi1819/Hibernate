@@ -1,2 +1,1 @@
-Hibernate/Employee ---- Crude Operation in hibernate   .    
-HibernateMapping/Customer-----OneToOne Mapping
+ManyToOne and OneToMany is bidirectional
