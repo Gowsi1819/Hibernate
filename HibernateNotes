@@ -1,0 +1,25 @@
+**Unidirectional Mapping**
+Only **one entity** knows (or references) the relationship. The link goes in **one direction**.
+only one entity has the relationship field and knows about the other entity
+
+**Bidirectional Mapping**
+
+**Both entities** know about each other and maintain references, so the relationship goes in **two directions**.
+Both entity has the relationship field and knows about the other entities.
+
+**Owning Side**
+The owning side of a relationship is the entity that **controls the association in the database**. It is responsible for **creating and managing the foreign key or join table**.
+
+**Non-Owning Side**
+The non-owning side is the entity that **does not manage the database mapping**. It only **reflects the relationship** using the `mappedBy` attribute.
+
+
+Types Of Mapping 
+
+**One-to-One Mapping**
+
+One-to-One mapping is when one entity is associated with exactly one instance of another entity.
+It can be unidirectional (only one entity knows) or bidirectional (both know each other).
+The owning side contains the foreign key, defined using @OneToOne and @JoinColumn.
+Example: A Person has one Passport.
+
