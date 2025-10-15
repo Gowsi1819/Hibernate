@@ -23,3 +23,16 @@ It can be unidirectional (only one entity knows) or bidirectional (both know eac
 The owning side contains the foreign key, defined using @OneToOne and @JoinColumn.
 Example: A Person has one Passport.
 
+**One-To-Many Mapping**
+A One-to-Many relationship means one record in one entity can be associated with multiple records in another entity.
+For example, one department can have many employees.
+
+**Many-To-One Mapping**
+A Many-to-One relationship means many records of one entity are associated with a single record of another entity.
+For example, many employees belong to one department.
+
+**Many-To-Many Mapping
+A Many-to-Many relationship means multiple records in one entity can relate to multiple records in another entity.
+For example, an employee can work on many projects, and a project can have many employees.    
+
+
